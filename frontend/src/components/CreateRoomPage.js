@@ -56,7 +56,7 @@ export default class CreateRoomPage extends Component {
       <Grid container spacing={1}>
         <Grid item xs={12} align="center">
           <Typography component="h4" variant="h4">
-            Create a Jam Session
+            Create A Room
           </Typography>
         </Grid>
         <Grid item xs={12} align="center">
@@ -97,7 +97,7 @@ export default class CreateRoomPage extends Component {
               }}
             />
             <FormHelperText>
-              <div align="center">Votes Required To Skip</div>
+              <div align="center">Votes Required To Skip Song</div>
             </FormHelperText>
           </FormControl>
         </Grid>
@@ -107,7 +107,7 @@ export default class CreateRoomPage extends Component {
             variant="contained"
             onClick={this.handleRoomButtonPressed}
           >
-            Create a Jam Sesh
+            Create A Room
           </Button>
         </Grid>
         <Grid item xs={12} align="center">
