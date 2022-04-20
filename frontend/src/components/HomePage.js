@@ -20,6 +20,7 @@ export default class HomePage extends Component {
     this.clearRoomCode = this.clearRoomCode.bind(this);
   }
 
+
   async componentDidMount() {   
     fetch( "/api/user-in-room")
       .then((response) => response.json())
