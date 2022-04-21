@@ -1,7 +1,5 @@
 # Music-Controller-Web-App-Tutorial
 
-The code for Tech With Tim's "Django & React Full Stack Web App Tutorial" series.
-
 ## Setup Instructions
 
 ### Install Required Python Modules
